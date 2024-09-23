@@ -25,7 +25,7 @@ if(!isAutoplaying){
     //   autoplay function will run automaticlly in the duration of every 2 second
     const playerMove=pickComputerMove();
     playGame(playerMove);
-      },2000);
+      },1500);
        isAutoplaying=true;
 }else{
 clearInterval(intervalid);
